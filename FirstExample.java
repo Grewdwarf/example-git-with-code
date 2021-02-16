@@ -1,9 +1,15 @@
 public class FirstExample {
     public static void main(String[] args){
+        int a = 10;
+        int b = 20;
 
+        System.out.println("A: "+a);
+        System.out.println("B: "+b);
+
+        //Swap the values
     }
 }
-
+//#region
 /* 
 Git - useful commands (locally):
 git init
@@ -18,4 +24,13 @@ git push -u origin master (first time)
 git push
 git pull
 git fetch
+
+Extra linux commands:
+pwd - print working directory
+ls - list
+lart (ls -lart)
+git commit -m "First commit" //-m = message
+git commit -am // -am = ? eller var det -im?
+git ignore
 */
+//#endregion
