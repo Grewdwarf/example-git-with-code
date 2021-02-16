@@ -3,10 +3,18 @@ public class FirstExample {
         int a = 10;
         int b = 20;
 
-        System.out.println("A: "+a);
+        System.out.println("\nA: "+a);
         System.out.println("B: "+b);
 
-        //Swap the values
+        //Swap the values 
+
+        int aux = 0;    // aux?
+        aux = a;
+        a = b;
+        b = aux;
+
+        System.out.println("\nA: "+a);    // 20
+        System.out.println("B: "+b);    // 10
     }
 }
 //#region
